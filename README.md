@@ -7,6 +7,14 @@
 </h3>
 
 <p align="center">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/raphaelswk/go-finances?color=%235636D3">  
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/raphaelswk/go-finances?color=%235636D3">  
+  <a href="https://github.com/raphaelswk/go-finances/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/raphaelswk/go-finances?color=%235636D3"></a>  
+  <a href="https://github.com/raphaelswk/go-finances/issues"><img alt="Repository issues" src="https://img.shields.io/github/issues/EliasGcf/gofinances?color=%235636D3"></a>  
+  <img alt="GitHub" src="https://img.shields.io/github/license/raphaelswk/go-finances?color=%235636D3">
+</p>
+
+<p align="center">
   <a href="#-about-the-project">About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-getting-started">Getting started</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;  
