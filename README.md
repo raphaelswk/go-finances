@@ -17,7 +17,7 @@
 
 ## 💰 About the project
 
-GoFinances is the application for who want to control your finances. With the feature to import a CSV (Comma-separated values) file you can bulk insert a lot of transactions.
+GoFinances is the application for the ones who wants to control their finances. With the feature to import a CSV (Comma-separated values) file you can bulk insert a lot of transactions. Project was a challenge developed during GoStack Bootcamp offered by [Rocketseat](https://rocketseat.com.br/) in order to practise CRUD concepts using ReactJS and TypeScript. GoStack Bootcamp is an online experience with lots of practical content, challenges and hacks.
 
 ## 🚀 Technologies
 
@@ -43,20 +43,18 @@ Technologies that I used to develop this api
 
 ## 💻 Getting started
 
-<!-- Importe o arquivo `Insomnia.json` no Insomnia ou clique no botão [Run in Insomnia](#insomniaButton) -->
-
 ### Requirements
 
 - [Node.js](https://nodejs.org/en/)
 - [Yarn](https://classic.yarnpkg.com/)
 - One instance of [PostgreSQL](https://www.postgresql.org/)
 
-> Obs.: I recommend use docker
+> Note: I recommend you using docker
 
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/EliasGcf/gofinances.git && cd gofinances
+$ git clone https://github.com/raphaelswk/go-finances.git && cd go-finances
 ```
 
 **Install dependencies**
@@ -70,30 +68,34 @@ $ yarn
 ### Backend
 
 ```bash
+$ cd go-finances-backend
+
 # Create the instance of postgreSQL using docker
 $ docker run --name gofinances-postgres -e POSTGRES_USER=docker -e POSTGRES_PASSWORD=docker -e POSTGRES_DB=gofinances -p 5432:5432 -d postgres
 
-# Make sure the keys in 'packages/server/ormconfig.json'
+# Make sure the keys in '/server/ormconfig.json'
 # to connect with your database are set up correctly.
 
-# Once the services are running, run the migrations
+# Once the DB is running, run the migrations
 $ yarn server typeorm migration:run
 
 # To finish, run the api service
-$ yarn server dev:server
+$ yarn dev:server
 
 # Well done, project is started!
 ```
 
 ### Web
 
-_Obs.: Before to continue, be sure to have the API running_
+Note: Before you continue, make sure the API is running
 
 ```bash
-# Be sure the file 'packages/web/src/services/api.ts' have the IP to your API
+$ cd go-finances-web
+
+# Make sure on the file '/src/services/api.ts' the IP pointing your API
 
 # Start the client
-$ yarn web start
+$ yarn start
 ```
 
 ## 📝 License
